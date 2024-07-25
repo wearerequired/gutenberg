@@ -258,7 +258,8 @@ _::-webkit-full-page-media, _:future, :root .has-multi-selection .block-editor-b
 	&.is-selected {
 		cursor: default;
 
-		&.rich-text {
+		&.rich-text,
+		&:has(.rich-text) {
 			cursor: unset;
 		}
 	}
